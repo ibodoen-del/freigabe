@@ -224,7 +224,23 @@ signaturePad.clear();
 }
 
 async function sendForm(){
+if(
+!document.getElementById("vorname").value ||
+!document.getElementById("nachname").value ||
+!document.getElementById("strasse").value ||
+!document.getElementById("plz").value ||
+!document.getElementById("stadt").value ||
+!document.getElementById("geburtsdatum").value ||
+!document.getElementById("email").value
+){
+alert("Bitte alle Pflichtfelder ausfüllen");
+return;
+}
 
+if(!document.getElementById("datenschutz").checked){
+alert("Bitte Datenschutz bestätigen");
+return;
+}
 if(signaturePad.isEmpty()){
 
 alert("Bitte unterschreiben");
