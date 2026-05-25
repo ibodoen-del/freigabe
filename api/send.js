@@ -92,6 +92,17 @@ export default async function handler(req, res) {
     zu kommunizieren.
 
     </p>
+    <h2>Unterschrift</h2>
+
+<img
+src="${unterschrift}"
+style="
+max-width:320px;
+border:1px solid #ccc;
+border-radius:10px;
+background:white;
+padding:10px;
+">
 
  
     </div>
