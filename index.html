@@ -94,26 +94,31 @@ margin-top:30px;
 
 <h1>StabilTarife Einverständniserklärung</h1>
 
-<input id="vorname" placeholder="Vorname *" required>
-
-<input id="nachname" placeholder="Nachname *" required>
-
-<input id="strasse" placeholder="Straße *" required>
-
-<input id="hausnummer" placeholder="Hausnummer *" required>
-
-<input id="plz" placeholder="PLZ *" required>
-
-<input id="stadt" placeholder="Stadt *" required>
-
-<input
-id="geburtsdatum"
-type="text"
-placeholder="Geburtsdatum TT.MM.JJJJ *"
+  <input
+id="vorname"
+placeholder="Vorname *"
+autocomplete="given-name"
 required
 >
 
-<input id="email" type="email" placeholder="E-Mail-Adresse *" required>
+<input id="nachname" placeholder="Nachname *" autocomplete="family-name" required>
+
+<input id="strasse" placeholder="Straße *" autocomplete="street-address" required>
+
+<input id="hausnummer" placeholder="Hausnummer *" autocomplete="address-line2" required>
+
+<input id="plz" placeholder="PLZ *" autocomplete="postal-code" required>
+
+<input id="stadt" placeholder="Stadt *" autocomplete="address-level2" required>
+  <input
+id="geburtsdatum"
+type="text"
+placeholder="Geburtsdatum TT.MM.JJJJ *"
+autocomplete="bday"
+required
+>
+
+<input id="email" type="email" placeholder="E-Mail-Adresse *" autocomplete="email" required>
 
 <p>
 
