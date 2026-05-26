@@ -149,7 +149,7 @@ padding:10px;
 
     await transporter.sendMail({
 
-      from: '"StabilTarife" <info@stabiltarife.de>',
+      from: '"Ibrahim Doenmez" <diipeag@gmail.com>',
 
     to: `info@stabiltarife.de, ${email}`,
 
