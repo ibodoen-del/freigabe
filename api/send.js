@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     const transporter = nodemailer.createTransport({
 
-      host: "smtp.ionos.de",
+      host: "diipeag@gmail.com",
 
       port: 465,
 
@@ -38,7 +38,7 @@ export default async function handler(req, res) {
 
         user: "info@stabiltarife.de",
 
-        pass: "22021998Zhn#.,"
+        pass: "bxmg irdw hgzs bkun"
 
       },
 
