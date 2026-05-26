@@ -26,6 +26,42 @@ export default async function handler(req, res) {
       email,
       unterschrift
     } = req.body;
+    const pdfPath = "/tmp/einverstaendnis.pdf";
+
+const doc = new PDFDocument();
+
+doc.pipe(fs.createWriteStream(pdfPath));
+
+doc.fontSize(22).text("Einverständniserklärung", {
+align: "center"
+});
+
+doc.moveDown();
+
+doc.fontSize(12);
+
+doc.text(`Vorname: ${vorname}`);
+doc.text(`Nachname: ${nachname}`);
+doc.text(`Straße: ${strasse}`);
+doc.text(`Hausnummer: ${hausnummer}`);
+doc.text(`PLZ: ${plz}`);
+doc.text(`Stadt: ${stadt}`);
+doc.text(`Geburtsdatum: ${geburtsdatum}`);
+doc.text(`E-Mail: ${email}`);
+
+doc.moveDown();
+
+doc.text(`
+Hiermit berechtige ich Ibrahim Doenmez,
+in meinem Namen Energie- und Versicherungsangebote
+einzuholen sowie mit Energieversorgern und
+Versicherungen zu kommunizieren.
+`);
+
+doc.end();
+await new Promise((resolve) => {
+doc.on("finish", resolve);
+});
 
     const transporter = nodemailer.createTransport({
 
