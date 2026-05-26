@@ -57,7 +57,25 @@ in meinem Namen Energie- und Versicherungsangebote
 einzuholen sowie mit Energieversorgern und
 Versicherungen zu kommunizieren.
 `);
+doc.moveDown();
 
+doc.fontSize(16).text("Unterschrift:");
+
+const base64Data = unterschrift.replace(
+/^data:image\/png;base64,/,
+""
+);
+
+const imageBuffer = Buffer.from(base64Data, "base64");
+
+doc.image(imageBuffer, {
+fit: [250, 120],
+align: "left"
+});
+
+doc.moveDown();
+
+doc.text(`Datum: ${new Date().toLocaleDateString("de-DE")}`);
 doc.end();
 
     const transporter = nodemailer.createTransport({
