@@ -125,11 +125,18 @@ padding:10px;
       html: html,
 
 attachments: [
+
+{
+filename: "einverstaendnis.pdf",
+path: pdfPath
+},
+
 {
 filename: "unterschrift.png",
 path: unterschrift,
 cid: "unterschrift"
 }
+
 ]
 
     });
