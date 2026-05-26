@@ -61,7 +61,7 @@ export default async function handler(req, res) {
     <h1 style="
     color:green;
     ">
-    StabilTarife Einverständniserklärung
+    Einverständniserklärung
     </h1>
 
     <p><b>Vorname:</b> ${vorname}</p>
@@ -85,7 +85,7 @@ export default async function handler(req, res) {
     font-size:16px;
     ">
 
-    Hiermit berechtige ich StabilTarife bzw.
+    Hiermit berechtige ich
     Ibrahim Doenmez, in meinem Namen
     Energie- und Versicherungsangebote
     einzuholen, Tarifvergleiche durchzuführen
@@ -117,7 +117,7 @@ padding:10px;
 
     to: `info@stabiltarife.de, ${email}`,
 
-      subject: "StabilTarife Einverständniserklärung",
+      subject: "Einverständniserklärung",
 
       html: html,
 
