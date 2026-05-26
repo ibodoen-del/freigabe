@@ -1,5 +1,7 @@
 import nodemailer from "nodemailer";
-
+import PDFDocument from "pdfkit";
+import fs from "fs";
+import path from "path";
 export default async function handler(req, res) {
 
   if (req.method !== "POST") {
