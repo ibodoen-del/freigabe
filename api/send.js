@@ -59,9 +59,6 @@ Versicherungen zu kommunizieren.
 `);
 
 doc.end();
-await new Promise((resolve) => {
-doc.on("finish", resolve);
-});
 
     const transporter = nodemailer.createTransport({
 
