@@ -19,6 +19,7 @@ export default async function handler(req, res) {
       vorname,
       nachname,
       strasse,
+      hausnummer,
       plz,
       stadt,
       geburtsdatum,
@@ -69,6 +70,8 @@ export default async function handler(req, res) {
     <p><b>Nachname:</b> ${nachname}</p>
 
     <p><b>Straße:</b> ${strasse}</p>
+    
+    <p><b>Hausnummer:</b> ${hausnummer}</p>
 
     <p><b>PLZ:</b> ${plz}</p>
 
