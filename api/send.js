@@ -154,11 +154,16 @@ doc.end();
 src="cid:unterschrift"
 style="
 max-width:320px;
+max-height:120px;
+display:block;
+margin-bottom:30px;
 border:1px solid #ccc;
 border-radius:10px;
 background:white;
 padding:10px;
 ">
+<br>
+<p><b>Datum:</b> ${new Date().toLocaleDateString("de-DE")}</p>
 
  
     </div>
