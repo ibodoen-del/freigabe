@@ -54,7 +54,7 @@ doc.moveDown();
 doc.text(`
 Hiermit berechtige ich Ibrahim Doenmez,
 in meinem Namen Energie- und Versicherungsangebote
-einzuholen sowie mit Energieversorgern und
+einzuholen und abschließen sowie mit Energieversorgern und
 Versicherungen zu kommunizieren.
 `);
 doc.moveDown();
