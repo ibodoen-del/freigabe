@@ -163,7 +163,7 @@ padding:10px;
 
 <br><br><br><br><br>
 
-<div style="height:200px;"></div>
+<div style="height:30px;"></div>
 <p><b>Datum:</b> ${new Date().toLocaleDateString("de-DE")}</p>
 </div>
 
