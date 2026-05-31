@@ -52,10 +52,7 @@ doc.text(`E-Mail: ${email}`);
 doc.moveDown();
 
 doc.text(`
-Hiermit berechtige ich Ibrahim Doenmez,
-in meinem Namen Energie- und Versicherungsangebote
-einzuholen und abschließen sowie mit Energieversorgern und
-Versicherungen zu kommunizieren.
+Hiermit berechtige ich Ibrahim Doenmez, in meinem Namen Energie- und Versicherungsangebote einzuholen, Tarifvergleiche durchzuführen und abzuschließen sowie mit Energieversorgern und Versicherungen zu kommunizieren.
 `);
 doc.moveDown();
 
