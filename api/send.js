@@ -147,7 +147,7 @@ doc.end();
     </p>
     <h2>Unterschrift</h2>
 
-<h2>Unterschrift</h2>
+
 
 <img
 src="cid:unterschrift"
