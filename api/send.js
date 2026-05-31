@@ -54,7 +54,7 @@ doc.moveDown();
 doc.text(`
 Hiermit berechtige ich Ibrahim Doenmez, in meinem Namen Energie- und Versicherungsangebote einzuholen, Tarifvergleiche durchzuführen und abzuschließen sowie mit Energieversorgern und Versicherungen zu kommunizieren.
 `);
-doc.moveDown(8);
+doc.moveDown();
 
 doc.fontSize(16).text("Unterschrift:");
 
@@ -70,7 +70,7 @@ fit: [250, 120],
 align: "left"
 });
 
-doc.moveDown();
+doc.moveDown(8);
 
 doc.text(`Datum: ${new Date().toLocaleDateString("de-DE")}`);
 doc.end();
