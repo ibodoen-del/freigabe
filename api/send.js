@@ -70,7 +70,7 @@ fit: [250, 120],
 align: "left"
 });
 
-doc.moveDown(8);
+doc.moveDown(6);
 
 doc.text(`Datum: ${new Date().toLocaleDateString("de-DE")}`);
 doc.end();
