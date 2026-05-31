@@ -147,21 +147,23 @@ doc.end();
     </p>
     <h2>Unterschrift</h2>
 
+<h2>Unterschrift</h2>
+
 <img
 src="cid:unterschrift"
 style="
 max-width:320px;
 max-height:120px;
 display:block;
-margin-bottom:100px;
 border:1px solid #ccc;
 border-radius:10px;
 background:white;
 padding:10px;
 ">
-<br>
-<div style="margin-top:250px;">
-  <p><b>Datum:</b> ${new Date().toLocaleDateString("de-DE")}</p>
+
+<br><br><br><br><br>
+
+<p><b>Datum:</b> ${new Date().toLocaleDateString("de-DE")}</p>
 </div>
 
  
