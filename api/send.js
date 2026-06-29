@@ -52,7 +52,7 @@ doc.text(`E-Mail: ${email}`);
 doc.moveDown();
 
 doc.text(`
-Hiermit berechtige ich Ibrahim Doenmez, in meinem Namen Energie- und Versicherungsangebote einzuholen, Tarifvergleiche durchzuführen und abzuschließen sowie mit Energieversorgern und Versicherungen zu kommunizieren.
+Hiermit bevollmächtige ich StabilTarife sowie Ibrahim und Melika Doenmez, in meinem Namen Energie- und Versicherungsangebote einzuholen, Tarifvergleiche durchzuführen, Verträge abzuschließen sowie mit Energieversorgern und Versicherungsunternehmen zu kommunizieren.
 `);
 doc.moveDown();
 
